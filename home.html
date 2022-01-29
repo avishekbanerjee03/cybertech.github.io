@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> &lt;/&gt; CYBER-NATE</title>
+    <style>
+      body {
+        background-color:black;
+        margin: 0;
+      }
+      .navbar {
+        overflow: hidden;
+        background-color: #666666;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      .navbar a {
+        float: left;
+        display: block;
+        color: #eeeeee;
+        text-align: center;
+        padding: 15px 18px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .navbar a:hover {
+        background: black;
+        color: red;
+      }
+      .container {
+        padding: 15px;
+        margin-top: 35px;
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="home.html"> &lt;/&gt; Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="rating.html">Our Ratings</a>
+    </div>
+
+<body>
+  <div class="container">
+<h1 style="color:white;text-align:center;font-family:sans-seri;"> &lt;/&gt; CYBER-NATE</h1>
+<p style="text-align:center;color:red;">We provides one of the most illigal services in dark web.</p>
+
+
+  <div class="w3-display-container mySlides">
+    <img src="https://images.wallpapersden.com/image/download/anonymous-hacker-caught-by-police-artistic_bGlnbG6UmZqaraWkpJRmbmdlrWZlbWU.jpg" style="width:100%">
+    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    </div>
+  </div>
+
+  <div class="w3-display-container mySlides">
+    <img src="https://images.wallpapersden.com/image/download/anonymous-4k-hacker-mask_bGVma2WUmZqaraWkpJRmbmdlrWZlbWU.jpg" style="width:100%">
+    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+      Beautiful Mountains
+    </div>
+  </div>
+  
+  <div class="w3-display-container mySlides">
+    <img src="https://wallpaperaccess.com/full/896805.jpg" style="width:100%">
+    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+      The Rain Forest
+    </div>
+  </div>
+  <div>
+  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+<div class="w3-container">
+  <table class="w3-table-all w3-margin-top" id="myTable">
+  
+    <tr>
+      <th style="text-align:center;color:white;font-size:30px;">Services</th>
+      <th style="color:red;font-size:30px;">Subscribe</th>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white">INSTAGRAM HACK</td>
+      <td style="color:red;text-align:center;">$50</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">HACK EMAIL ACCOUNT</td>
+      <td style="color:red;text-align:center;">$90</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">SPY WHATSAPP</td>
+      <td style="color:red;text-align:center;">$100</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">VIRUS ATTACK</td>
+      <td style="color:red;text-align:center;">$800</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">HACK VISA/Credit Card</td>
+      <td style="color:red;text-align:center;">$250</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">HACK A OPERATING SYSTEM</td>
+      <td style="color:red;text-align:center;">$50</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">PASSWORD SNIFFING</td>
+      <td style="color:red;text-align:center;">$100</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;color:white;">DDOS ATTACK</td>
+      <td style="color:red;text-align:center;">From $99/h</td>
+    </tr>
+  </table>
+
+  <p style="text-align:center;color:white;">IF YOU NEED SPECIAL SERVICES - CONTACT US HERE.</p>
+  <p style="text-align:center;color:red">"Hakers_teamss@photomail.com"</p><br><br><br>
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+
+</script>
+
+</body>
+</html>
+
